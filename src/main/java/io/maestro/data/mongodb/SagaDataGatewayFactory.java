@@ -1,6 +1,7 @@
 package io.maestro.data.mongodb;
 
 import com.mongodb.client.MongoClients;
+import io.maestro.common.port.SagaDataGateway;
 
 public class SagaDataGatewayFactory {
 

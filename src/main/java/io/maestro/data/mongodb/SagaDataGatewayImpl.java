@@ -1,8 +1,9 @@
 package io.maestro.data.mongodb;
 
 import com.mongodb.client.MongoClient;
-import io.maestro.data.mongodb.common.CommandWithDestination;
-import io.maestro.data.mongodb.common.SagaInstance;
+import io.maestro.common.command.CommandWithDestination;
+import io.maestro.common.port.SagaDataGateway;
+import io.maestro.common.saga.instance.SagaInstance;
 
 public class SagaDataGatewayImpl implements SagaDataGateway {
 
